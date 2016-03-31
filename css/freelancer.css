@@ -26,8 +26,8 @@ a.active {
 }
 
 h1,
-h2,
-h3,
+/*h2,*/
+/*h3,*/
 h4,
 h5,
 h6 {
@@ -97,7 +97,7 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
@@ -456,4 +456,12 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+#contact {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: #ACB6C0;
+    background-color: rgba(39, 89, 41, 0.83);
 }
